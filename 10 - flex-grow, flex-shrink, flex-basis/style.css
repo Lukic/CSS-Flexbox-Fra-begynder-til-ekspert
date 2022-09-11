@@ -51,10 +51,12 @@
 .flex-container {
   display: flex;
   border: 10px solid #000;
-  height: 100vh;
-  align-items: center;
 }
 
-.box4 {
-  align-self: stretch;
+.box1 {
+  flex: 2 1 500px;
+}
+
+.box2 {
+  flex: 1 10 500px;
 }
