@@ -51,5 +51,16 @@
 .flex-container {
   display: flex;
   border: 10px solid #000;
-  flex-direction: column-reverse;
+}
+
+.box4 {
+  order: 2;
+}
+
+.box2 {
+  order: 3;
+}
+
+.box7 {
+  order: 1;
 }

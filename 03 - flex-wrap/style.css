@@ -51,5 +51,11 @@
 .flex-container {
   display: flex;
   border: 10px solid #000;
-  flex-direction: column-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: calc(33.333333% - 20px);
+  margin: 10px;
 }

@@ -50,6 +50,8 @@
 /* Lektionen starter her. */
 .flex-container {
   display: flex;
+  height: 100vh;
   border: 10px solid #000;
-  flex-direction: column-reverse;
+  flex-direction: column;
+  justify-content: space-between;
 }
