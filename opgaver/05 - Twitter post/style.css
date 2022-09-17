@@ -1,0 +1,105 @@
+/* Nulstiller padding, margin og sætter border-box */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Standard styling af vores boks elementer */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+figure img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+}
+.user-name {
+  color: rgb(64, 66, 69);
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.flex-container-icons {
+  list-style-type: none;
+}
+
+.flex-container-icons a {
+  color: rgb(64, 66, 69);
+}
+
+.flex-container-icons a:hover,
+.menu-options:hover {
+  color: rgb(55, 115, 173);
+}
+
+.flex-container-icons a {
+  font-size: 1.7rem;
+}
+
+.date {
+  color: rgb(64, 66, 69);
+  font-size: 1.5rem;
+}
+
+.menu-options {
+  color: rgb(64, 66, 69);
+}
+
+.flex-container {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(64, 66, 69);
+}
+
+.tweet-content {
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+}
+
+/* Lektionen starter her. */
+.flex-container {
+  max-width: 600px;
+  min-width: 400px;
+  margin: 50px auto;
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+figure {
+  flex-basis: 48px;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1 1 300px;
+}
+
+.menu-options {
+  flex-basis: auto;
+  margin-left: auto;
+}
+
+.tweet-content {
+  flex-basis: 100%;
+}
+
+.flex-container-icons {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
