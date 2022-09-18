@@ -1,0 +1,66 @@
+/* Nulstiller padding, margin og sætter border-box */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Standard styling af vores elementer */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.flex-item {
+  position: relative;
+}
+
+figcaption {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+
+.flex-item:hover figcaption {
+  display: flex;
+}
+
+/* Lektionen starter her. */
+
+.flex-container {
+  display: flex;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.flex-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-item {
+  display: block;
+  overflow: hidden;
+  flex: 1 1 250px;
+  align-self: stretch;
+}
+
+.large {
+  flex: 1 1 500px;
+}

@@ -1,0 +1,82 @@
+/* Nulstiller padding, margin og sætter border-box */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Standard styling af vores elementer */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-image: url("header-bg.png");
+  background-size: cover;
+}
+
+h1 {
+  font-size: 5.2rem;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 2.2rem;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: rgb(255, 164, 0);
+  color: #fff;
+  display: inline-block;
+  font-size: 1.6rem;
+  padding: 1em 2em;
+  border-radius: 1em;
+}
+
+/* Lektionen starter her. */
+
+.flex-container {
+  min-height: 720px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-item-content {
+  max-width: 540px;
+  flex: 1 1 50%;
+  padding-right: 50px;
+}
+.flex-item-video {
+  max-width: 540px;
+  flex: 1 2 50%;
+}
+
+.flex-item-video video {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    padding: 40px;
+  }
+  .flex-container {
+    gap: 50px;
+  }
+  .flex-item-content,
+  .flex-item-video {
+    flex: 1 1 100%;
+  }
+}
