@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox kursus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-flex-container">
+        <li><a href="#" class="logo">CSS Flexbox</a></li>
+        <li><a href="#" class="nav-item">Ydelser</a></li>
+        <li><a href="#" class="nav-item">Nyheder</a></li>
+        <li><a href="#" class="nav-item">Kontakt</a></li>
+        <li>
+          <a href="#" class="btn light">Log ind</a>
+        </li>
+        <li><a href="#" class="btn dark">Køb her</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1>
+        CSS Flexbox<br />
+        Fra begynder til ekspert
+      </h1>
+      <p class="lead">
+        Lær at mestre CSS Flexbox og skab moderne webløsninger ved at bruge alle
+        muligheder som Flexbox kommer med.
+      </p>
+      <a href="#" class="btn dark">Køb for 99,00 kr</a>
+    </header>
+
+    <section class="our-services">
+      <h2>Vores ydelser</h2>
+
+      <div class="services-flex-container">
+        <article class="services-flex-item">
+          <div><i class="fa-regular fa-heart"></i></div>
+          <h3>Serviceydelse</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur, voluptatum ut. Reprehenderit, totam dolor!
+          </p>
+        </article>
+        <article class="services-flex-item">
+          <div><i class="fa-regular fa-heart"></i></div>
+          <h3>Serviceydelse</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur, voluptatum ut. Reprehenderit, totam dolor!
+          </p>
+        </article>
+        <article class="services-flex-item">
+          <div><i class="fa-regular fa-heart"></i></div>
+          <h3>Serviceydelse</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur, voluptatum ut. Reprehenderit, totam dolor!
+          </p>
+        </article>
+        <article class="services-flex-item">
+          <div><i class="fa-regular fa-heart"></i></div>
+          <h3>Serviceydelse</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur, voluptatum ut. Reprehenderit, totam dolor!
+          </p>
+        </article>
+        <article class="services-flex-item">
+          <div><i class="fa-regular fa-heart"></i></div>
+          <h3>Serviceydelse</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur, voluptatum ut. Reprehenderit, totam dolor!
+          </p>
+        </article>
+        <article class="services-flex-item">
+          <div><i class="fa-regular fa-heart"></i></div>
+          <h3>Serviceydelse</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur, voluptatum ut. Reprehenderit, totam dolor!
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="latest-news">
+      <h2>Seneste nyheder</h2>
+      <p class="lead">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna
+      </p>
+
+      <div class="news-flex-container">
+        <article class="news-flex-item">
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero
+          </p>
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <p>Name <span> 5 timer siden </span></p>
+          </div>
+        </article>
+        <article class="news-flex-item">
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero
+          </p>
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <p>Name <span> 5 timer siden </span></p>
+          </div>
+        </article>
+        <article class="news-flex-item">
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero
+          </p>
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <p>Name <span> 5 timer siden </span></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Nyhedsbrev</h2>
+      <p class="lead">
+        Duis aute irure dolor in reprehenderit in voluptate velit.
+      </p>
+      <form>
+        <input class="email" type="e-mail" placeholder="Din e-mail" />
+        <button class="btn dark" type="submit">Tilmeld</button>
+      </form>
+    </section>
+    <footer>
+      <p>© 2022 CSS Flexbox</p>
+      <a href="#"> Handelsbetingelser </a>
+    </footer>
+  </body>
+</html>
