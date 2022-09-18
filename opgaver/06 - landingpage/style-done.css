@@ -154,7 +154,6 @@ footer a {
 }
 
 /* Lektionen starter her. */
-
 nav {
   width: 100%;
   min-height: 116px;
@@ -266,5 +265,34 @@ footer {
 
   header {
     margin-top: 0;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav {
+    order: 1;
+  }
+
+  header {
+    order: 2;
+  }
+
+  .newsletter {
+    order: 3;
+  }
+
+  .latest-news {
+    order: 4;
+  }
+
+  .our-services {
+    order: 6;
+  }
+
+  footer {
+    order: 7;
   }
 }

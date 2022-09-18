@@ -69,3 +69,37 @@ h1 {
 }
 
 /* Lektionen starter her. */
+.flex-container {
+  max-width: 600px;
+  min-width: 400px;
+  margin: 50px auto;
+  padding: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+figure {
+  flex-basis: 48px;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1 1 300px;
+}
+
+.menu-options {
+  flex-basis: auto;
+  margin-left: auto;
+}
+
+.tweet-content {
+  flex-basis: 100%;
+}
+
+.flex-container-icons {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
