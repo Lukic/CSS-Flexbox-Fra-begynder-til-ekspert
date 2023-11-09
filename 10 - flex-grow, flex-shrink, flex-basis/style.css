@@ -49,14 +49,13 @@
 
 /* Lektionen starter her. */
 .flex-container {
-  display: flex;
-  border: 10px solid #000;
+
 }
 
 .box1 {
-  flex: 2 1 500px;
+
 }
 
 .box2 {
-  flex: 1 10 500px;
+  
 }
