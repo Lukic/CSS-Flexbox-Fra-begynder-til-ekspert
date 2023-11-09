@@ -49,22 +49,17 @@
 
 /* Lektionen starter her. */
 .flex-container {
-  display: flex;
-  border: 10px solid #000;
-  flex-wrap: wrap;
-  flex-direction: column;
-  height: 100vh;
+
 }
 
 .flex-item {
-  flex-basis: 400px;
-  flex-grow: 1;
+
 }
 
 .box2 {
-  flex-grow: 4;
+
 }
 
 .box3 {
-  flex-basis: 200px;
+
 }
