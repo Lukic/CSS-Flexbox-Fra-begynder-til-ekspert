@@ -49,12 +49,9 @@
 
 /* Lektionen starter her. */
 .flex-container {
-  display: flex;
-  border: 10px solid #000;
-  height: 100vh;
-  align-items: center;
+
 }
 
 .box4 {
-  align-self: stretch;
+
 }
