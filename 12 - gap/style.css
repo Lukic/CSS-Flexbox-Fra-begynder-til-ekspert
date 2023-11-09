@@ -49,13 +49,9 @@
 
 /* Lektionen starter her. */
 .flex-container {
-  display: flex;
-  border: 10px solid #000;
-  flex-wrap: wrap;
-  gap: 20px 10px;
+
 }
 
 .flex-item {
-  flex-basis: 200px;
-  flex-grow: 1;
+
 }
